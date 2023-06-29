@@ -1,1 +1,12 @@
-
+install.packages("tidyverse")
+library(tidyverse)
+install.packages("readr")
+library(readr)
+read.csv("Desktop/Cyclistic Data/202211-divvy-tripdata.csv")
+november_2023 <- read.csv("Desktop/Cyclistic Data/202211-divvy-tripdata.csv")
+nrow(november_2022)
+install.packages("dplyr")
+library(dplyr)
+sample_november_2022 <- sample_n(november_2022, 3360)
+View(sample_november_2022)
+write.csv(sample_november_2022, file = "sample_november_2022.csv", row.names = FALSE)
