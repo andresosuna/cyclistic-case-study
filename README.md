@@ -1,6 +1,6 @@
 # cyclistic-case-study
 
-This is a case study for the Google's Data Analytics Certificate capestone project. 
+This is a case study for the Google Data Analytics Certificate capestone project. 
 
 ## Scenario
 
